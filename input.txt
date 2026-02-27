@@ -1,0 +1,13 @@
+BOTS = A,B,C
+SLOTS = Slot1,Slot2,Slot3,Slot4
+
+UNARY_CONSTRAINTS:
+Slot4 != C
+
+BINARY_CONSTRAINTS:
+Slot1 != Slot2
+Slot2 != Slot3
+Slot3 != Slot4
+
+GLOBAL_CONSTRAINT:
+AllBotsUsedAtLeastOnce
